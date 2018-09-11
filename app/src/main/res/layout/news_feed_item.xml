@@ -18,16 +18,16 @@
 
             <TextView
                 android:id="@+id/announcementCaption"
-                android:layout_width="300dp"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/lato_bold"
+                android:inputType="textCapWords"
                 android:text="Caption"
                 android:textAllCaps="false"
-                android:textSize="30sp"
+                android:textSize="24sp"
                 android:textStyle="bold"
-                android:inputType="textCapWords"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
